@@ -26,10 +26,10 @@ email: anarichter@protonmail.com
 #   Google search results) and in your feed.xml site description.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+# github_username:  jekyll
 # Site Info
-title:         
+# title:         
     # en: "Title" #comentado pois da erro no feed.xml
     # pt-br: "Título"
 description:        "My personal page"
@@ -42,7 +42,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote_theme: kultzak/the-plain
+# remote_theme: kultzak/the-plain
 # Google Analytics
 google_analytics: G-BVGS2NWEQL
 
@@ -71,7 +71,7 @@ google_analytics: G-BVGS2NWEQL
 
 # Site Settings
 url:                https://anarichter.github.io # main url
-# baseurl:            /the-plain
+baseurl:            /the-plain
 # permalink:          /:categories/:year/:month/:day/:title # Post permalink
 # timezone:           America/Sao_Paulo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
